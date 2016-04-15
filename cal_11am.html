@@ -1,0 +1,300 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link href="../Downloads/fullcalendar-2.2.7/fullcalendar.css" rel="stylesheet">
+<link href="../Downloads/fullcalendar-2.2.7/fullcalendar.print.css" rel="stylesheet" media="print">
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="../Downloads/fullcalendar-2.2.7/lib/moment.min.js"></script>
+<script src="../Downloads/fullcalendar-2.2.7/lib/jquery.min.js"></script>
+<script src="../Downloads/fullcalendar-2.2.7/fullcalendar.min.js"></script>
+
+<script>
+
+	$(document).ready(function() {
+		console.log("happenin captain");
+		$('#calendar').fullCalendar({
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
+			defaultDate: '2015-03-01',
+			editable: true,
+			eventLimit: true, // allow "more" link when too many events
+			events: [
+			]
+		});
+		
+	});
+			courseInfo = {
+  "collection1": [
+    {
+      "courseNumber": {
+        "text": "CSS220-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003389&term=1149"
+      },
+      "Title": "Sophomore Economics Tutorial: Topics in the History of Economic Thought",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC413"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS230-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003395&term=1149"
+      },
+      "Title": "Sophomore Government Tutorial: State and Society in the Modern Age",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC402"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS240-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003396&term=1149"
+      },
+      "Title": "Sophomore History Tutorial: The Emergence of Modern Europe",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC104"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS271-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003370&term=1149"
+      },
+      "Title": "Sophomore Colloquium: Modern Social Theory",
+      "Time": ".M.W... 13:10:00-14:30:00",
+      "Location": "PAC422"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS391-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003376&term=1149"
+      },
+      "Title": "Senior Colloquium: Political Economy (aka Public and Private: The Logic of Social Order)",
+      "Time": "...W.F. 02:40PM-04:00PM",
+      "Location": "PAC422"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS220-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003389&term=1151"
+      },
+      "Title": "Sophomore Economics Tutorial: Topics in the History of Economic Thought",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC413"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS220-02",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003389&term=1151"
+      },
+      "Title": "Sophomore Economics Tutorial: Topics in the History of Economic Thought",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC413"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS230-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003395&term=1151"
+      },
+      "Title": "Sophomore Government Tutorial: State and Society in the Modern Age",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC402"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS230-02",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003395&term=1151"
+      },
+      "Title": "Sophomore Government Tutorial: State and Society in the Modern Age",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC402"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS240-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003396&term=1151"
+      },
+      "Title": "Sophomore History Tutorial: The Emergence of Modern Europe",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC104"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS240-02",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003396&term=1151"
+      },
+      "Title": "Sophomore History Tutorial: The Emergence of Modern Europe",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC104"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS320-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003390&term=1151"
+      },
+      "Title": "Junior Economics Tutorial: Economics of the Welfare State",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC421"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS320-02",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003390&term=1151"
+      },
+      "Title": "Junior Economics Tutorial: Economics of the Welfare State",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC421"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS330-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003407&term=1151"
+      },
+      "Title": "Junior Government Tutorial: The Great Powers and Grand Strategy",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC136"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS330-02",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003407&term=1151"
+      },
+      "Title": "Junior Government Tutorial: The Great Powers and Grand Strategy",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC136"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS340-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003427&term=1151"
+      },
+      "Title": "Junior History Tutorial: Postimperial History, 1945-1990",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC422"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS340-02",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003427&term=1151"
+      },
+      "Title": "Junior History Tutorial: Postimperial History, 1945-1990",
+      "Time": ".....F. 14:00:00-16:00:00",
+      "Location": "PAC422"
+    },
+    {
+      "courseNumber": {
+        "text": "CSS371-01",
+        "href": "https://iasext.wesleyan.edu/regprod/!wesmaps_page.html?crse=003371&term=1151"
+      },
+      "Title": "Junior Colloquium: Contemporary Social and Political Theory",
+      "Time": ".M.W... 13:10:00-14:30:00",
+      "Location": "PAC422"
+    }
+  ]
+}
+
+			function printAnElement(){
+        for(var i = 0; i < courseInfo.collection1.length; i++){
+          $("#courseList").append("<li><input type='checkbox' id='myCheck"+i+"' onchange='isClicked("+i+")'></input><div id ='TESTER"+i+"'>"+courseInfo.collection1[i].courseNumber.text+" "+courseInfo.collection1[i].Title+"</div></li>");
+          //console.log(courseInfo.collection1[i].courseNumber.text);
+        }
+        $( "#courseList" ).listview( "refresh" );
+			}
+
+      function isClicked(myCheck){
+        if($("#myCheck"+myCheck).is(':checked'))
+            calendarInfo(myCheck);
+      }
+
+
+      var dayTimeStart;
+      var dayTimeEnd;
+     
+      function calendarInfo(theNum){
+        console.log("called")
+        var newString = "";
+        var dataDayTime = courseInfo.collection1[theNum].Time;
+        for(var i = 0; i < dataDayTime.length; i++){
+          var days = dataDayTime.substring(0,6);
+          var timeStart = dataDayTime.substring(8,16);
+          var timeEnd = dataDayTime.substring(17,25);
+
+          if(days[i] != "."){
+            newString = days[i];
+            break;
+          }
+        }
+
+        console.log(newString)
+
+        if(newString == "M"){
+          newString = "2015-03-02";
+        }
+        else if(newString == "T"){
+          newString = "2015-03-03";
+        }
+        else if(newString == "W"){
+          newString = "2015-03-04";
+        }
+        else if(newString == "R"){
+          newString = "2015-03-05";
+        }
+        else if(newString == "F"){
+          newString = "2015-03-06";
+        }
+        dayTimeStart = newString+"T"+timeStart;
+        dayTimeEnd = newString+"T"+timeEnd;
+        console.log(dayTimeStart);
+        console.log(dayTimeEnd);
+        var t=courseInfo.collection1[theNum].courseNumber.text
+
+        var newEvent = {
+            title: t,
+            start: dayTimeStart,
+            end: dayTimeEnd
+        };
+        	$('#calendar').fullCalendar( 'renderEvent', newEvent , 'stick');
+        }
+
+
+</script>
+<style>
+
+	body {
+		margin: 40px 10px;
+		padding: 0;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		font-size: 14px;
+	}
+
+	#calendar {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+</style>
+</head>
+<body>
+
+
+  <div id = 'calendar'></div>
+  <div id = "homeScreen">
+		  <div data-role="header">
+		    <h1>Plan Your Semester!</h1>
+		  </div>
+
+		  <div data-role="main" class="ui-content" id = "text">
+		    <ul data-role="listview" id="courseList">
+        </ul>
+        <P>
+		    <a data-role="button" onclick="printAnElement()">CSS Classes</a>
+		  </div>
+
+		  <div data-role="footer">
+		    <h1>Footer Text</h1>
+		  </div>
+		</div>
+</body>
+</html>
